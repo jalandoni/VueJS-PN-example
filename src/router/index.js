@@ -10,7 +10,7 @@ import ComponentExample from '../views/ComponentExample.vue'
 import RouterExample from '../views/RouterExample.vue'
 import RequestExample from '../views/RequestExample.vue'
 import TPPage from '../views/TPPage.vue'
-import Exercise from '../views/TPPage.vue'
+import Exercise from '../views/Exercise.vue'
 
 import TestPage from '../views/test-view-router/TestPage.vue'
 import ArticlePage from '../views/test-view-router/ArticlePage.vue'
