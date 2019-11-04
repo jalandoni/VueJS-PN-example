@@ -2,14 +2,15 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Home from '../views/Home.vue'
-import BtnExample from '../views/BtnExample.vue'
 import IfExample from '../views/IfExample.vue'
-import ForExample from '../views/BtnExample.vue'
-import BtnWithMethodExample from '../views/IfExample.vue'
-import ComponentExample from '../views/BtnExample.vue'
+import ForExample from '../views/ForExample.vue'
+import BtnExample from '../views/BtnExample.vue'
+import BtnWithMethodExample from '../views/BtnWithMethodExample.vue'
+import ComponentExample from '../views/ComponentExample.vue'
 import RouterExample from '../views/RouterExample.vue'
-import RequestExample from '../views/BtnExample.vue'
+import RequestExample from '../views/RequestExample.vue'
 import TPPage from '../views/TPPage.vue'
+import Exercise from '../views/TPPage.vue'
 
 import TestPage from '../views/test-view-router/TestPage.vue'
 import ArticlePage from '../views/test-view-router/ArticlePage.vue'
@@ -72,6 +73,11 @@ const routes = [
     path: '/tp',
     name: 'TP',
     component: TPPage
+  },
+  {
+    path: '/exercise',
+    name: 'Exercise',
+    component: Exercise
   }
 ]
 

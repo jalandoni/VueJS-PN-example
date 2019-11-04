@@ -1,7 +1,7 @@
 <template>
   <div class="for_example">
     <ul>
-        <li v-for='todo in todos' v-bind:key="todo"> 
+        <li v-for='todo in todos' v-bind:key="todo.text"> 
             {{ todo.text }}
         </li>
     </ul>

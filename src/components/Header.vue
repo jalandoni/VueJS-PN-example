@@ -6,8 +6,9 @@
         <router-link class="navBtn" to="/btn-example" tag="div">Button</router-link>
         <router-link class="navBtn" to="/btn-example-with-methods" tag="div">Button 2</router-link>
         <router-link class="navBtn" to="/component-example" tag="div">Component</router-link>
-        <router-link class="navBtn" to="/router-example" tag="div">Router</router-link>
+        <!-- <router-link class="navBtn" to="/router-example" tag="div">Router</router-link> -->
         <router-link class="navBtn" to="/tp" tag="div">TP</router-link>
+        <!-- <router-link class="navBtn" to="/exercise" tag="div">TP</router-link> -->
     </div>
 </template>
 
