@@ -26,7 +26,23 @@
     </div>
     <!-- --------- End Of the Instructions part -->
 
-    <div class='exerciseResultPart'>
+    <div class='Exercise'>
+      <center><h1>{{recipe.title}}</h1></center>
+          <ul v-for='item in recipe.ingredients' v-bind:key="item.text">
+        <li> 
+            {{item}}
+        </li>
+    </ul>
+      <div class="if">
+    <p v-if="0"> {{ isEasyMessage}} </p>
+    <p v-if="6"> {{ isNormalMessage }} </p>
+  </div>
+  <div class="button">
+    <button v-on:click= milk >milk</button>
+    <p>You add {{milk}}</p>
+    
+  </div>
+
       <!-- TODO -->
     </div>
   </div>
@@ -37,10 +53,16 @@
     name: 'Exercise',
     data(){
       return{
+        isEasy : false,
+        isEasyMessage :'Easy',
+        isNormal : true,
+        isNormalMessage :'Normal',
+        milk:null,
         recipe : {
           title: "Crêpes",
           ingredients: [ "eggs", "flour", "sugar"]
         }
+        
       }
     }
   }
